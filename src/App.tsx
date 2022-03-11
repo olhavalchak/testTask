@@ -1,5 +1,6 @@
 import React from 'react';
-import CardTest from './components/CardTest';
+import { CardTest } from './components/CardTest';
+
 
 function App() {
   return (
