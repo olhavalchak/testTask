@@ -9,14 +9,14 @@ import face from '../theme/assets/face.png';
 import { CardContentContainer } from './elements';
 
 export const CardTest = () => {
-  
+
   return (
     <div>
-      <Box 
-      sx={{backgroundColor: '#15161A'}}
-      height='350px'
-      width='300px'
-      borderRadius={'10%'}>
+      <Box
+        sx={{ backgroundColor: '#15161A' }}
+        height='350px'
+        width='300px'
+        borderRadius={'10%'}>
         <Grid container
           spacing={0.5}
           direction='row'
@@ -46,17 +46,17 @@ export const CardTest = () => {
           </Grid>
         </Grid>
         <Box
-        
-        width='60px'
-        height='60px'
-        position='absolute'
-        top='37%'
-        left='48%'>
-        <Avatar
-          sx={{ border: '3px solid #17181C'}}
-          alt='Remy Sharp'
-          src={face}
-        />
+
+          width='60px'
+          height='60px'
+          position='absolute'
+          top='37%'
+          left='48%'>
+          <Avatar
+            sx={{ border: '3px solid #17181C' }}
+            alt='Remy Sharp'
+            src={face}
+          />
         </Box>
         <CardContentContainer />
       </Box>
